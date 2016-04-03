@@ -1,4 +1,29 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BFOAuth (1.0.1)
+  - CloudSight (1.0.3):
+    - BFOAuth (~> 1.0)
+    - RequestUtils (~> 1.1)
   - coinbase-official (3.0.2):
     - coinbase-official/client (= 3.0.2)
     - coinbase-official/core (= 3.0.2)
@@ -8,11 +33,18 @@ PODS:
   - coinbase-official/core (3.0.2)
   - coinbase-official/OAuth (3.0.2):
     - coinbase-official/core
+  - RequestUtils (1.1.2)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - CloudSight (~> 1.0)
   - coinbase-official
 
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BFOAuth: e3c2e4eaae862a89bc301ed6f292d3cd0d6a107b
+  CloudSight: 7974bacb22ec2db1bfb0f0242d9be7f442a78d77
   coinbase-official: d3b945686972ce8a1904c9784088e2b1b78cab44
+  RequestUtils: 0f04f89abca3936c6566e2f4c3ce5d252036bc89
 
 COCOAPODS: 0.39.0

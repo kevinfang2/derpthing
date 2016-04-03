@@ -28,6 +28,7 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
     UILabel* label;
     int count;
     NSString *same;
+    NSString *troll;
 }
 @synthesize same = same;
 
@@ -241,8 +242,12 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
                  same = [result.tags componentsJoinedByString:@", "];
                  NSLog([NSString stringWithFormat:@"Same:\n%@",same]);
                  
-                 NSString *troll =  [NSString stringWithFormat:@"Same:\n%@",same];
-                 
+                 troll =  [NSString stringWithFormat:@"Same:\n%@",same];
+                 if ([troll rangeOfString:objectTryingToBeFound].location == NSNotFound) {
+                     NSLog(@"string does not contain chair");
+                 } else {
+                     [self sendWinToServer];
+                 }
 
                  
              }

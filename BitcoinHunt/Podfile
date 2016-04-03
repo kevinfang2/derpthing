@@ -7,6 +7,7 @@ target 'BitcoinHunt' do
 pod 'SIOSocket', '~> 0.2.0'
 pod "CloudSight", "~> 1.0"
 pod 'AFNetworking', '~> 2.0'
+pod "coinbase-official"
 end
 
 target 'BitcoinHuntTests' do

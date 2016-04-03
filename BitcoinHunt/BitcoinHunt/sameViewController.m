@@ -7,12 +7,21 @@
 //
 
 #import "sameViewController.h"
+#import <Coinbase.h>
+#import <CoinbaseAccount.h>
+#import <CoinbaseAddress.h>
+#import <CoinbaseTransaction.h>
+#import <CoinbaseUser.h>
+
 
 @interface sameViewController ()
 
 @end
 
-@implementation sameViewController
+@implementation sameViewController {
+    
+    __weak IBOutlet UITextField *textField;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,5 +42,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)submitButtonpressed:(id)sender {
+    NSString *typedInAddress = textField.text;
+      Coinbase *apiClient = [Coinbase coinbaseWithApiKey:@"Hc0mYX0KDEaGusU0" secret:@"GCG1eza4ZhfTfEZ88Zkq4G2fUc9uSArZ"];
+    CoinbaseAccount *account = [[CoinbaseAccount alloc] initWithID:@"536a541fa9393bb3c7000034" client:apiClient];
+    [account transferAmount:@"0.001" to:typedInAddress completion:^(CoinbaseTransaction *transaction, NSError *error) {
+        if (error) {
+        } else {
+        }
+    }];
+}
 
 @end

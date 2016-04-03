@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4312FD9E65813F51D0A3E2739C2198 /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90DEE9FFD14A50B2C80A55B9B03B7F /* SIOSocket.m */; };
+		28E5B537D9BE6D2F41FA530A0E400F3D /* Pods-BitcoinHunt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01E9BCA43A10E21249477E8EFE77EB /* Pods-BitcoinHunt-dummy.m */; };
+		2C1B80E4064D7E5CEF423A178DF218B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6BE56AA7AC64C750B8DF17CBCE16A590 /* SIOSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931D3BE1C9F117BEA6A0B8BA031FF34B /* SIOSocket-dummy.m */; };
+		9D9C49336350E65845A1D512E16F73AB /* SIOSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C299E71A7FF756B24A9E1297E94CE9 /* SIOSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC34C2412D2728C9D2D07BBCF33588F /* socket.io.js.h in Headers */ = {isa = PBXBuildFile; fileRef = C8553739A281CBE4FA57373B280AA250 /* socket.io.js.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F017733A9AB81BE3CF42062601B195BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D477B1C47F9F39C64DE3BF24A3B05584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6142264835DF8FF309935D19AF2034;
+			remoteInfo = SIOSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C299E71A7FF756B24A9E1297E94CE9 /* SIOSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIOSocket.h; path = SocketIO/Source/SIOSocket.h; sourceTree = "<group>"; };
+		1EA6BA32B30FB4A36D95F68103514A10 /* libSIOSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSIOSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A567BF43458394B2D0E13DA74EB939 /* Pods-BitcoinHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinHunt.release.xcconfig"; sourceTree = "<group>"; };
+		312B5FDDEB80C681AB41D7253A661073 /* Pods-BitcoinHunt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinHunt-acknowledgements.plist"; sourceTree = "<group>"; };
+		330E5F5DCA51CE416BD37A73D7828887 /* Pods-BitcoinHunt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitcoinHunt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B90DEE9FFD14A50B2C80A55B9B03B7F /* SIOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIOSocket.m; path = SocketIO/Source/SIOSocket.m; sourceTree = "<group>"; };
+		57A8D9B977BE70B0AA731D468BB8F417 /* SIOSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIOSocket.xcconfig; sourceTree = "<group>"; };
+		641C3A43BA1266964D038A8B2B2E054E /* Pods-BitcoinHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinHunt.debug.xcconfig"; sourceTree = "<group>"; };
+		6F01E9BCA43A10E21249477E8EFE77EB /* Pods-BitcoinHunt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitcoinHunt-dummy.m"; sourceTree = "<group>"; };
+		931D3BE1C9F117BEA6A0B8BA031FF34B /* SIOSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIOSocket-dummy.m"; sourceTree = "<group>"; };
+		9FE463E861D71741B9BB17CC6874C9C4 /* Pods-BitcoinHunt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinHunt-resources.sh"; sourceTree = "<group>"; };
+		A3F4B1CD2F47F1DB475E954191D9EF58 /* libPods-BitcoinHunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitcoinHunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8553739A281CBE4FA57373B280AA250 /* socket.io.js.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.io.js.h; path = SocketIO/Source/socket.io.js.h; sourceTree = "<group>"; };
+		D894739EE1D8E8A84B90A343E0F4AAE6 /* SIOSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIOSocket-prefix.pch"; sourceTree = "<group>"; };
+		FF7106C66EF690F69856E4CC98059E0B /* Pods-BitcoinHunt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinHunt-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739BCF13EB69DA9320C4FBB4B9D085D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F017733A9AB81BE3CF42062601B195BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86364DCD7F2854634F0F3C34A988C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1B80E4064D7E5CEF423A178DF218B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E57AA5C5DFD0FCB630BED63EF177C3 /* SIOSocket */ = {
+			isa = PBXGroup;
+			children = (
+				01C299E71A7FF756B24A9E1297E94CE9 /* SIOSocket.h */,
+				4B90DEE9FFD14A50B2C80A55B9B03B7F /* SIOSocket.m */,
+				C8553739A281CBE4FA57373B280AA250 /* socket.io.js.h */,
+				CA05E6B954AFAAFD81DFBE5DFC875C41 /* Support Files */,
+			);
+			path = SIOSocket;
+			sourceTree = "<group>";
+		};
+		7515C2C47103A15B00BD8D9E1C30765D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F4B1CD2F47F1DB475E954191D9EF58 /* libPods-BitcoinHunt.a */,
+				1EA6BA32B30FB4A36D95F68103514A10 /* libSIOSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AD23AF1585D04ABF924BC3FB1B219F3C /* Pods */,
+				7515C2C47103A15B00BD8D9E1C30765D /* Products */,
+				F052645A652DE5C5F47F7B575DB06CC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD23AF1585D04ABF924BC3FB1B219F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E57AA5C5DFD0FCB630BED63EF177C3 /* SIOSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFF702416DAB8113A82021A56F268E81 /* Pods-BitcoinHunt */ = {
+			isa = PBXGroup;
+			children = (
+				330E5F5DCA51CE416BD37A73D7828887 /* Pods-BitcoinHunt-acknowledgements.markdown */,
+				312B5FDDEB80C681AB41D7253A661073 /* Pods-BitcoinHunt-acknowledgements.plist */,
+				6F01E9BCA43A10E21249477E8EFE77EB /* Pods-BitcoinHunt-dummy.m */,
+				FF7106C66EF690F69856E4CC98059E0B /* Pods-BitcoinHunt-frameworks.sh */,
+				9FE463E861D71741B9BB17CC6874C9C4 /* Pods-BitcoinHunt-resources.sh */,
+				641C3A43BA1266964D038A8B2B2E054E /* Pods-BitcoinHunt.debug.xcconfig */,
+				28A567BF43458394B2D0E13DA74EB939 /* Pods-BitcoinHunt.release.xcconfig */,
+			);
+			name = "Pods-BitcoinHunt";
+			path = "Target Support Files/Pods-BitcoinHunt";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA05E6B954AFAAFD81DFBE5DFC875C41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A8D9B977BE70B0AA731D468BB8F417 /* SIOSocket.xcconfig */,
+				931D3BE1C9F117BEA6A0B8BA031FF34B /* SIOSocket-dummy.m */,
+				D894739EE1D8E8A84B90A343E0F4AAE6 /* SIOSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SIOSocket";
+			sourceTree = "<group>";
+		};
+		F052645A652DE5C5F47F7B575DB06CC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF702416DAB8113A82021A56F268E81 /* Pods-BitcoinHunt */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D436F22CEDE1A2649ED4D749EC4C1F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9C49336350E65845A1D512E16F73AB /* SIOSocket.h in Headers */,
+				EBC34C2412D2728C9D2D07BBCF33588F /* socket.io.js.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C8FCA19D715EA0CDB76B03EEE84AB62 /* Pods-BitcoinHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEE7467B5082EC7A6F4B8C6807BD4AC /* Build configuration list for PBXNativeTarget "Pods-BitcoinHunt" */;
+			buildPhases = (
+				A2E0D8B9D96A386AD84C701805A4E197 /* Sources */,
+				739BCF13EB69DA9320C4FBB4B9D085D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073C8140725FEA3F9A48E6545FA17E2F /* PBXTargetDependency */,
+			);
+			name = "Pods-BitcoinHunt";
+			productName = "Pods-BitcoinHunt";
+			productReference = A3F4B1CD2F47F1DB475E954191D9EF58 /* libPods-BitcoinHunt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC6142264835DF8FF309935D19AF2034 /* SIOSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A612C99151313B8A7AC1F9E86645E15 /* Build configuration list for PBXNativeTarget "SIOSocket" */;
+			buildPhases = (
+				83EBD450AE775C463D642D11A332AC25 /* Sources */,
+				B86364DCD7F2854634F0F3C34A988C95 /* Frameworks */,
+				2D436F22CEDE1A2649ED4D749EC4C1F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIOSocket;
+			productName = SIOSocket;
+			productReference = 1EA6BA32B30FB4A36D95F68103514A10 /* libSIOSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7515C2C47103A15B00BD8D9E1C30765D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8FCA19D715EA0CDB76B03EEE84AB62 /* Pods-BitcoinHunt */,
+				BC6142264835DF8FF309935D19AF2034 /* SIOSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EBD450AE775C463D642D11A332AC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE56AA7AC64C750B8DF17CBCE16A590 /* SIOSocket-dummy.m in Sources */,
+				0C4312FD9E65813F51D0A3E2739C2198 /* SIOSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E0D8B9D96A386AD84C701805A4E197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5B537D9BE6D2F41FA530A0E400F3D /* Pods-BitcoinHunt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		073C8140725FEA3F9A48E6545FA17E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SIOSocket;
+			target = BC6142264835DF8FF309935D19AF2034 /* SIOSocket */;
+			targetProxy = D477B1C47F9F39C64DE3BF24A3B05584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41AFDAEC8853AB30682F8F9B222B1900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A8D9B977BE70B0AA731D468BB8F417 /* SIOSocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SIOSocket/SIOSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA6AF34650244C22A2366C4CF12341E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641C3A43BA1266964D038A8B2B2E054E /* Pods-BitcoinHunt.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3A44FF84A5F22857D05A03D74DFE59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A8D9B977BE70B0AA731D468BB8F417 /* SIOSocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SIOSocket/SIOSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E402F7655A67CB29CC70656F92C54606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A567BF43458394B2D0E13DA74EB939 /* Pods-BitcoinHunt.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A612C99151313B8A7AC1F9E86645E15 /* Build configuration list for PBXNativeTarget "SIOSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A44FF84A5F22857D05A03D74DFE59A /* Debug */,
+				41AFDAEC8853AB30682F8F9B222B1900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEE7467B5082EC7A6F4B8C6807BD4AC /* Build configuration list for PBXNativeTarget "Pods-BitcoinHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6AF34650244C22A2366C4CF12341E5 /* Debug */,
+				E402F7655A67CB29CC70656F92C54606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170A81B675F90FE160FD3A40 /* libPods-BitcoinHunt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7115B3E9476BA97DFEDF97 /* libPods-BitcoinHunt.a */; };
+		FD7B1E441CB1937100F7E7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1E431CB1937100F7E7D2 /* main.m */; };
+		FD7B1E471CB1937100F7E7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1E461CB1937100F7E7D2 /* AppDelegate.m */; };
+		FD7B1E4A1CB1937100F7E7D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1E491CB1937100F7E7D2 /* ViewController.m */; };
+		FD7B1E4D1CB1937100F7E7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1E4B1CB1937100F7E7D2 /* Main.storyboard */; };
+		FD7B1E4F1CB1937100F7E7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1E4E1CB1937100F7E7D2 /* Assets.xcassets */; };
+		FD7B1E521CB1937100F7E7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1E501CB1937100F7E7D2 /* LaunchScreen.storyboard */; };
+		FD7B1E5D1CB1937200F7E7D2 /* BitcoinHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1E5C1CB1937200F7E7D2 /* BitcoinHuntTests.m */; };
+		FD7B1E681CB1937200F7E7D2 /* BitcoinHuntUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1E671CB1937200F7E7D2 /* BitcoinHuntUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7B1E591CB1937200F7E7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7B1E371CB1937100F7E7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7B1E3E1CB1937100F7E7D2;
+			remoteInfo = BitcoinHunt;
+		};
+		FD7B1E641CB1937200F7E7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7B1E371CB1937100F7E7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7B1E3E1CB1937100F7E7D2;
+			remoteInfo = BitcoinHunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7115B3E9476BA97DFEDF97 /* libPods-BitcoinHunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitcoinHunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A20CEB100E3686D3725DB18 /* Pods-BitcoinHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinHunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinHunt/Pods-BitcoinHunt.release.xcconfig"; sourceTree = "<group>"; };
+		45E4BEFBA008D7B933652783 /* Pods-BitcoinHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinHunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinHunt/Pods-BitcoinHunt.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7B1E3F1CB1937100F7E7D2 /* BitcoinHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1E431CB1937100F7E7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD7B1E451CB1937100F7E7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD7B1E461CB1937100F7E7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD7B1E481CB1937100F7E7D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD7B1E491CB1937100F7E7D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD7B1E4C1CB1937100F7E7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7B1E4E1CB1937100F7E7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7B1E511CB1937100F7E7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7B1E531CB1937100F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7B1E581CB1937200F7E7D2 /* BitcoinHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1E5C1CB1937200F7E7D2 /* BitcoinHuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinHuntTests.m; sourceTree = "<group>"; };
+		FD7B1E5E1CB1937200F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7B1E631CB1937200F7E7D2 /* BitcoinHuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinHuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1E671CB1937200F7E7D2 /* BitcoinHuntUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinHuntUITests.m; sourceTree = "<group>"; };
+		FD7B1E691CB1937200F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7B1E3C1CB1937100F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170A81B675F90FE160FD3A40 /* libPods-BitcoinHunt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E551CB1937200F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E601CB1937200F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3627CE453C633E3F055F98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E4BEFBA008D7B933652783 /* Pods-BitcoinHunt.debug.xcconfig */,
+				3A20CEB100E3686D3725DB18 /* Pods-BitcoinHunt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CF1698A54DE66421BF96FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7115B3E9476BA97DFEDF97 /* libPods-BitcoinHunt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD7B1E361CB1937100F7E7D2 = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E411CB1937100F7E7D2 /* BitcoinHunt */,
+				FD7B1E5B1CB1937200F7E7D2 /* BitcoinHuntTests */,
+				FD7B1E661CB1937200F7E7D2 /* BitcoinHuntUITests */,
+				FD7B1E401CB1937100F7E7D2 /* Products */,
+				0E3627CE453C633E3F055F98 /* Pods */,
+				6CF1698A54DE66421BF96FA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7B1E401CB1937100F7E7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E3F1CB1937100F7E7D2 /* BitcoinHunt.app */,
+				FD7B1E581CB1937200F7E7D2 /* BitcoinHuntTests.xctest */,
+				FD7B1E631CB1937200F7E7D2 /* BitcoinHuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7B1E411CB1937100F7E7D2 /* BitcoinHunt */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E451CB1937100F7E7D2 /* AppDelegate.h */,
+				FD7B1E461CB1937100F7E7D2 /* AppDelegate.m */,
+				FD7B1E481CB1937100F7E7D2 /* ViewController.h */,
+				FD7B1E491CB1937100F7E7D2 /* ViewController.m */,
+				FD7B1E4B1CB1937100F7E7D2 /* Main.storyboard */,
+				FD7B1E4E1CB1937100F7E7D2 /* Assets.xcassets */,
+				FD7B1E501CB1937100F7E7D2 /* LaunchScreen.storyboard */,
+				FD7B1E531CB1937100F7E7D2 /* Info.plist */,
+				FD7B1E421CB1937100F7E7D2 /* Supporting Files */,
+			);
+			path = BitcoinHunt;
+			sourceTree = "<group>";
+		};
+		FD7B1E421CB1937100F7E7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E431CB1937100F7E7D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7B1E5B1CB1937200F7E7D2 /* BitcoinHuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E5C1CB1937200F7E7D2 /* BitcoinHuntTests.m */,
+				FD7B1E5E1CB1937200F7E7D2 /* Info.plist */,
+			);
+			path = BitcoinHuntTests;
+			sourceTree = "<group>";
+		};
+		FD7B1E661CB1937200F7E7D2 /* BitcoinHuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1E671CB1937200F7E7D2 /* BitcoinHuntUITests.m */,
+				FD7B1E691CB1937200F7E7D2 /* Info.plist */,
+			);
+			path = BitcoinHuntUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7B1E3E1CB1937100F7E7D2 /* BitcoinHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1E6C1CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHunt" */;
+			buildPhases = (
+				1219AAC362D7D89CB9A7E5D8 /* Check Pods Manifest.lock */,
+				FD7B1E3B1CB1937100F7E7D2 /* Sources */,
+				FD7B1E3C1CB1937100F7E7D2 /* Frameworks */,
+				FD7B1E3D1CB1937100F7E7D2 /* Resources */,
+				778A5A44C641EEE86A2AF772 /* Embed Pods Frameworks */,
+				C31A6A2F7DE35E9F72970F70 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinHunt;
+			productName = BitcoinHunt;
+			productReference = FD7B1E3F1CB1937100F7E7D2 /* BitcoinHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7B1E571CB1937200F7E7D2 /* BitcoinHuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1E6F1CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHuntTests" */;
+			buildPhases = (
+				FD7B1E541CB1937200F7E7D2 /* Sources */,
+				FD7B1E551CB1937200F7E7D2 /* Frameworks */,
+				FD7B1E561CB1937200F7E7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7B1E5A1CB1937200F7E7D2 /* PBXTargetDependency */,
+			);
+			name = BitcoinHuntTests;
+			productName = BitcoinHuntTests;
+			productReference = FD7B1E581CB1937200F7E7D2 /* BitcoinHuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7B1E621CB1937200F7E7D2 /* BitcoinHuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1E721CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHuntUITests" */;
+			buildPhases = (
+				FD7B1E5F1CB1937200F7E7D2 /* Sources */,
+				FD7B1E601CB1937200F7E7D2 /* Frameworks */,
+				FD7B1E611CB1937200F7E7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7B1E651CB1937200F7E7D2 /* PBXTargetDependency */,
+			);
+			name = BitcoinHuntUITests;
+			productName = BitcoinHuntUITests;
+			productReference = FD7B1E631CB1937200F7E7D2 /* BitcoinHuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7B1E371CB1937100F7E7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tolga Beser";
+				TargetAttributes = {
+					FD7B1E3E1CB1937100F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+					};
+					FD7B1E571CB1937200F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+						TestTargetID = FD7B1E3E1CB1937100F7E7D2;
+					};
+					FD7B1E621CB1937200F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+						TestTargetID = FD7B1E3E1CB1937100F7E7D2;
+					};
+				};
+			};
+			buildConfigurationList = FD7B1E3A1CB1937100F7E7D2 /* Build configuration list for PBXProject "BitcoinHunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7B1E361CB1937100F7E7D2;
+			productRefGroup = FD7B1E401CB1937100F7E7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7B1E3E1CB1937100F7E7D2 /* BitcoinHunt */,
+				FD7B1E571CB1937200F7E7D2 /* BitcoinHuntTests */,
+				FD7B1E621CB1937200F7E7D2 /* BitcoinHuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7B1E3D1CB1937100F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1E521CB1937100F7E7D2 /* LaunchScreen.storyboard in Resources */,
+				FD7B1E4F1CB1937100F7E7D2 /* Assets.xcassets in Resources */,
+				FD7B1E4D1CB1937100F7E7D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E561CB1937200F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E611CB1937200F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1219AAC362D7D89CB9A7E5D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		778A5A44C641EEE86A2AF772 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinHunt/Pods-BitcoinHunt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31A6A2F7DE35E9F72970F70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinHunt/Pods-BitcoinHunt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7B1E3B1CB1937100F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1E4A1CB1937100F7E7D2 /* ViewController.m in Sources */,
+				FD7B1E471CB1937100F7E7D2 /* AppDelegate.m in Sources */,
+				FD7B1E441CB1937100F7E7D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E541CB1937200F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1E5D1CB1937200F7E7D2 /* BitcoinHuntTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1E5F1CB1937200F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1E681CB1937200F7E7D2 /* BitcoinHuntUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7B1E5A1CB1937200F7E7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7B1E3E1CB1937100F7E7D2 /* BitcoinHunt */;
+			targetProxy = FD7B1E591CB1937200F7E7D2 /* PBXContainerItemProxy */;
+		};
+		FD7B1E651CB1937200F7E7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7B1E3E1CB1937100F7E7D2 /* BitcoinHunt */;
+			targetProxy = FD7B1E641CB1937200F7E7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7B1E4B1CB1937100F7E7D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7B1E4C1CB1937100F7E7D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7B1E501CB1937100F7E7D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7B1E511CB1937100F7E7D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7B1E6A1CB1937200F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7B1E6B1CB1937200F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7B1E6D1CB1937200F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E4BEFBA008D7B933652783 /* Pods-BitcoinHunt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitcoinHunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD7B1E6E1CB1937200F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A20CEB100E3686D3725DB18 /* Pods-BitcoinHunt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitcoinHunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD7B1E701CB1937200F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitcoinHuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinHunt.app/BitcoinHunt";
+			};
+			name = Debug;
+		};
+		FD7B1E711CB1937200F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitcoinHuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinHunt.app/BitcoinHunt";
+			};
+			name = Release;
+		};
+		FD7B1E731CB1937200F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitcoinHuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitcoinHunt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD7B1E741CB1937200F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitcoinHuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.BitcoinHuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitcoinHunt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7B1E3A1CB1937100F7E7D2 /* Build configuration list for PBXProject "BitcoinHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1E6A1CB1937200F7E7D2 /* Debug */,
+				FD7B1E6B1CB1937200F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1E6C1CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1E6D1CB1937200F7E7D2 /* Debug */,
+				FD7B1E6E1CB1937200F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1E6F1CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1E701CB1937200F7E7D2 /* Debug */,
+				FD7B1E711CB1937200F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1E721CB1937200F7E7D2 /* Build configuration list for PBXNativeTarget "BitcoinHuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1E731CB1937200F7E7D2 /* Debug */,
+				FD7B1E741CB1937200F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7B1E371CB1937100F7E7D2 /* Project object */;
+}

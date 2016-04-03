@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14180994FCF39E68F4734579 /* libPods-GeotaggingBitcoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F5201408457426B7FB7C8E /* libPods-GeotaggingBitcoin.a */; };
+		FD7B1DC61CB181C700F7E7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1DC51CB181C700F7E7D2 /* main.m */; };
+		FD7B1DC91CB181C700F7E7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1DC81CB181C700F7E7D2 /* AppDelegate.m */; };
+		FD7B1DCC1CB181C700F7E7D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1DCB1CB181C700F7E7D2 /* ViewController.m */; };
+		FD7B1DCF1CB181C700F7E7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1DCD1CB181C700F7E7D2 /* Main.storyboard */; };
+		FD7B1DD11CB181C700F7E7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1DD01CB181C700F7E7D2 /* Assets.xcassets */; };
+		FD7B1DD41CB181C700F7E7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7B1DD21CB181C700F7E7D2 /* LaunchScreen.storyboard */; };
+		FD7B1DDF1CB181C700F7E7D2 /* GeotaggingBitcoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1DDE1CB181C700F7E7D2 /* GeotaggingBitcoinTests.m */; };
+		FD7B1DEA1CB181C700F7E7D2 /* GeotaggingBitcoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7B1DE91CB181C700F7E7D2 /* GeotaggingBitcoinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7B1DDB1CB181C700F7E7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7B1DB91CB181C700F7E7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7B1DC01CB181C700F7E7D2;
+			remoteInfo = GeotaggingBitcoin;
+		};
+		FD7B1DE61CB181C700F7E7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7B1DB91CB181C700F7E7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7B1DC01CB181C700F7E7D2;
+			remoteInfo = GeotaggingBitcoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F5201408457426B7FB7C8E /* libPods-GeotaggingBitcoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeotaggingBitcoin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456C52D0633200A98A23BA64 /* Pods-GeotaggingBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeotaggingBitcoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeotaggingBitcoin/Pods-GeotaggingBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
+		B8535C98D4475A5C49E001B7 /* Pods-GeotaggingBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeotaggingBitcoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeotaggingBitcoin/Pods-GeotaggingBitcoin.release.xcconfig"; sourceTree = "<group>"; };
+		FD7B1DC11CB181C700F7E7D2 /* GeotaggingBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeotaggingBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1DC51CB181C700F7E7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD7B1DC71CB181C700F7E7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD7B1DC81CB181C700F7E7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD7B1DCA1CB181C700F7E7D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD7B1DCB1CB181C700F7E7D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD7B1DCE1CB181C700F7E7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7B1DD01CB181C700F7E7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7B1DD31CB181C700F7E7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7B1DD51CB181C700F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7B1DDA1CB181C700F7E7D2 /* GeotaggingBitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotaggingBitcoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1DDE1CB181C700F7E7D2 /* GeotaggingBitcoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeotaggingBitcoinTests.m; sourceTree = "<group>"; };
+		FD7B1DE01CB181C700F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7B1DE51CB181C700F7E7D2 /* GeotaggingBitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotaggingBitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7B1DE91CB181C700F7E7D2 /* GeotaggingBitcoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeotaggingBitcoinUITests.m; sourceTree = "<group>"; };
+		FD7B1DEB1CB181C700F7E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7B1DBE1CB181C700F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14180994FCF39E68F4734579 /* libPods-GeotaggingBitcoin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DD71CB181C700F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DE21CB181C700F7E7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DEFBA027AAB8089E48A4BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F5201408457426B7FB7C8E /* libPods-GeotaggingBitcoin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4EAE4B58614BE2F709ABEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				456C52D0633200A98A23BA64 /* Pods-GeotaggingBitcoin.debug.xcconfig */,
+				B8535C98D4475A5C49E001B7 /* Pods-GeotaggingBitcoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD7B1DB81CB181C700F7E7D2 = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DC31CB181C700F7E7D2 /* GeotaggingBitcoin */,
+				FD7B1DDD1CB181C700F7E7D2 /* GeotaggingBitcoinTests */,
+				FD7B1DE81CB181C700F7E7D2 /* GeotaggingBitcoinUITests */,
+				FD7B1DC21CB181C700F7E7D2 /* Products */,
+				B4EAE4B58614BE2F709ABEB8 /* Pods */,
+				68DEFBA027AAB8089E48A4BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7B1DC21CB181C700F7E7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DC11CB181C700F7E7D2 /* GeotaggingBitcoin.app */,
+				FD7B1DDA1CB181C700F7E7D2 /* GeotaggingBitcoinTests.xctest */,
+				FD7B1DE51CB181C700F7E7D2 /* GeotaggingBitcoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7B1DC31CB181C700F7E7D2 /* GeotaggingBitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DC71CB181C700F7E7D2 /* AppDelegate.h */,
+				FD7B1DC81CB181C700F7E7D2 /* AppDelegate.m */,
+				FD7B1DCA1CB181C700F7E7D2 /* ViewController.h */,
+				FD7B1DCB1CB181C700F7E7D2 /* ViewController.m */,
+				FD7B1DCD1CB181C700F7E7D2 /* Main.storyboard */,
+				FD7B1DD01CB181C700F7E7D2 /* Assets.xcassets */,
+				FD7B1DD21CB181C700F7E7D2 /* LaunchScreen.storyboard */,
+				FD7B1DD51CB181C700F7E7D2 /* Info.plist */,
+				FD7B1DC41CB181C700F7E7D2 /* Supporting Files */,
+			);
+			path = GeotaggingBitcoin;
+			sourceTree = "<group>";
+		};
+		FD7B1DC41CB181C700F7E7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DC51CB181C700F7E7D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7B1DDD1CB181C700F7E7D2 /* GeotaggingBitcoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DDE1CB181C700F7E7D2 /* GeotaggingBitcoinTests.m */,
+				FD7B1DE01CB181C700F7E7D2 /* Info.plist */,
+			);
+			path = GeotaggingBitcoinTests;
+			sourceTree = "<group>";
+		};
+		FD7B1DE81CB181C700F7E7D2 /* GeotaggingBitcoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B1DE91CB181C700F7E7D2 /* GeotaggingBitcoinUITests.m */,
+				FD7B1DEB1CB181C700F7E7D2 /* Info.plist */,
+			);
+			path = GeotaggingBitcoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7B1DC01CB181C700F7E7D2 /* GeotaggingBitcoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1DEE1CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoin" */;
+			buildPhases = (
+				E27E251D8B5490902D260C64 /* Check Pods Manifest.lock */,
+				FD7B1DBD1CB181C700F7E7D2 /* Sources */,
+				FD7B1DBE1CB181C700F7E7D2 /* Frameworks */,
+				FD7B1DBF1CB181C700F7E7D2 /* Resources */,
+				08997A46A9BE3F0B4DAA966C /* Embed Pods Frameworks */,
+				130F6B11C77EC2E4636FE34A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeotaggingBitcoin;
+			productName = GeotaggingBitcoin;
+			productReference = FD7B1DC11CB181C700F7E7D2 /* GeotaggingBitcoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7B1DD91CB181C700F7E7D2 /* GeotaggingBitcoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1DF11CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoinTests" */;
+			buildPhases = (
+				FD7B1DD61CB181C700F7E7D2 /* Sources */,
+				FD7B1DD71CB181C700F7E7D2 /* Frameworks */,
+				FD7B1DD81CB181C700F7E7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7B1DDC1CB181C700F7E7D2 /* PBXTargetDependency */,
+			);
+			name = GeotaggingBitcoinTests;
+			productName = GeotaggingBitcoinTests;
+			productReference = FD7B1DDA1CB181C700F7E7D2 /* GeotaggingBitcoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7B1DE41CB181C700F7E7D2 /* GeotaggingBitcoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B1DF41CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoinUITests" */;
+			buildPhases = (
+				FD7B1DE11CB181C700F7E7D2 /* Sources */,
+				FD7B1DE21CB181C700F7E7D2 /* Frameworks */,
+				FD7B1DE31CB181C700F7E7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7B1DE71CB181C700F7E7D2 /* PBXTargetDependency */,
+			);
+			name = GeotaggingBitcoinUITests;
+			productName = GeotaggingBitcoinUITests;
+			productReference = FD7B1DE51CB181C700F7E7D2 /* GeotaggingBitcoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7B1DB91CB181C700F7E7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tolga Beser";
+				TargetAttributes = {
+					FD7B1DC01CB181C700F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+					};
+					FD7B1DD91CB181C700F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+						TestTargetID = FD7B1DC01CB181C700F7E7D2;
+					};
+					FD7B1DE41CB181C700F7E7D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2SGHEF48JW;
+						TestTargetID = FD7B1DC01CB181C700F7E7D2;
+					};
+				};
+			};
+			buildConfigurationList = FD7B1DBC1CB181C700F7E7D2 /* Build configuration list for PBXProject "GeotaggingBitcoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7B1DB81CB181C700F7E7D2;
+			productRefGroup = FD7B1DC21CB181C700F7E7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7B1DC01CB181C700F7E7D2 /* GeotaggingBitcoin */,
+				FD7B1DD91CB181C700F7E7D2 /* GeotaggingBitcoinTests */,
+				FD7B1DE41CB181C700F7E7D2 /* GeotaggingBitcoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7B1DBF1CB181C700F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1DD41CB181C700F7E7D2 /* LaunchScreen.storyboard in Resources */,
+				FD7B1DD11CB181C700F7E7D2 /* Assets.xcassets in Resources */,
+				FD7B1DCF1CB181C700F7E7D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DD81CB181C700F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DE31CB181C700F7E7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08997A46A9BE3F0B4DAA966C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeotaggingBitcoin/Pods-GeotaggingBitcoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		130F6B11C77EC2E4636FE34A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeotaggingBitcoin/Pods-GeotaggingBitcoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27E251D8B5490902D260C64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7B1DBD1CB181C700F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1DCC1CB181C700F7E7D2 /* ViewController.m in Sources */,
+				FD7B1DC91CB181C700F7E7D2 /* AppDelegate.m in Sources */,
+				FD7B1DC61CB181C700F7E7D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DD61CB181C700F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1DDF1CB181C700F7E7D2 /* GeotaggingBitcoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B1DE11CB181C700F7E7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7B1DEA1CB181C700F7E7D2 /* GeotaggingBitcoinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7B1DDC1CB181C700F7E7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7B1DC01CB181C700F7E7D2 /* GeotaggingBitcoin */;
+			targetProxy = FD7B1DDB1CB181C700F7E7D2 /* PBXContainerItemProxy */;
+		};
+		FD7B1DE71CB181C700F7E7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7B1DC01CB181C700F7E7D2 /* GeotaggingBitcoin */;
+			targetProxy = FD7B1DE61CB181C700F7E7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7B1DCD1CB181C700F7E7D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7B1DCE1CB181C700F7E7D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7B1DD21CB181C700F7E7D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7B1DD31CB181C700F7E7D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7B1DEC1CB181C700F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7B1DED1CB181C700F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7B1DEF1CB181C700F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456C52D0633200A98A23BA64 /* Pods-GeotaggingBitcoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeotaggingBitcoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD7B1DF01CB181C700F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8535C98D4475A5C49E001B7 /* Pods-GeotaggingBitcoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeotaggingBitcoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD7B1DF21CB181C700F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeotaggingBitcoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeotaggingBitcoin.app/GeotaggingBitcoin";
+			};
+			name = Debug;
+		};
+		FD7B1DF31CB181C700F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeotaggingBitcoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeotaggingBitcoin.app/GeotaggingBitcoin";
+			};
+			name = Release;
+		};
+		FD7B1DF51CB181C700F7E7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeotaggingBitcoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeotaggingBitcoin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD7B1DF61CB181C700F7E7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeotaggingBitcoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.GeotaggingBitcoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeotaggingBitcoin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7B1DBC1CB181C700F7E7D2 /* Build configuration list for PBXProject "GeotaggingBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1DEC1CB181C700F7E7D2 /* Debug */,
+				FD7B1DED1CB181C700F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1DEE1CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1DEF1CB181C700F7E7D2 /* Debug */,
+				FD7B1DF01CB181C700F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1DF11CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1DF21CB181C700F7E7D2 /* Debug */,
+				FD7B1DF31CB181C700F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B1DF41CB181C700F7E7D2 /* Build configuration list for PBXNativeTarget "GeotaggingBitcoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7B1DF51CB181C700F7E7D2 /* Debug */,
+				FD7B1DF61CB181C700F7E7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7B1DB91CB181C700F7E7D2 /* Project object */;
+}

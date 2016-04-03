@@ -74,7 +74,7 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [SIOSocket socketWithHost: @"http://127.0.0.1:4210" response: ^(SIOSocket *socket)
+    [SIOSocket socketWithHost: @"http://136.152.42.115:4210" response: ^(SIOSocket *socket)
      {
          self.socket = socket;
          
@@ -240,12 +240,13 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
                  //                 NSLog([NSString stringWithFormat:@"Tags:\n%@",
                  //                        [result.tags componentsJoinedByString:@", "]]);
                  same = [result.tags componentsJoinedByString:@", "];
-                 NSLog([NSString stringWithFormat:@"Same:\n%@",same]);
+                 NSLog([NSString stringWithFormat:@"\n%@",same]);
                  
                  troll =  [NSString stringWithFormat:@"Same:\n%@",same];
                  if ([troll rangeOfString:objectTryingToBeFound].location == NSNotFound) {
-                     NSLog(@"string does not contain chair");
+                     NSLog(@"string does not contain the thing");
                  } else {
+                     NSLog(@"djkbfybkuy");
                      [self sendWinToServer];
                  }
 
@@ -308,7 +309,7 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
 
 -(void)sendWinToServer {
     
-    [SIOSocket socketWithHost: @"http://45.55.138.146:3000" response: ^(SIOSocket *socket)
+    [SIOSocket socketWithHost: @"http://136.152.42.115:4210" response: ^(SIOSocket *socket)
      {
          self.socket = socket;
          
@@ -320,6 +321,8 @@ static NSString * const kAppSecret = @"waWDqOWJckO_gV010I58naQc7DRPdRWyyKaCC1Tm"
              
          };
          [self.socket emit:@"itemFound"];
+         [self performSegueWithIdentifier:@"same" sender:self];
+
      }];
     
 }
